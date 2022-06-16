@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E33D0745285B4CFB0095B5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0744285B4CFB0095B5BE /* ViewController.swift */; };
 		E33D0747285B4CFB0095B5BE /* BreakPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0746285B4CFB0095B5BE /* BreakPreviewApp.swift */; };
 		E33D0749285B4CFB0095B5BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0748285B4CFB0095B5BE /* ContentView.swift */; };
 		E33D074B285B4CFD0095B5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33D074A285B4CFD0095B5BE /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		E33D075E285B4CFE0095B5BE /* BreakPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D075D285B4CFE0095B5BE /* BreakPreviewTests.swift */; };
 		E33D0768285B4CFE0095B5BE /* BreakPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0767285B4CFE0095B5BE /* BreakPreviewUITests.swift */; };
 		E33D076A285B4CFE0095B5BE /* BreakPreviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0769285B4CFE0095B5BE /* BreakPreviewUITestsLaunchTests.swift */; };
+		E33D0777285B4E5A0095B5BE /* PersonInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0776285B4E5A0095B5BE /* PersonInjector.swift */; };
+		E33D077A285B4F4C0095B5BE /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0778285B4F4C0095B5BE /* Person+CoreDataClass.swift */; };
+		E33D077B285B4F4C0095B5BE /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D0779285B4F4C0095B5BE /* Person+CoreDataProperties.swift */; };
+		E33D077D285B50C10095B5BE /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D077C285B50C10095B5BE /* PersonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		E33D0741285B4CFB0095B5BE /* BreakPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E33D0744285B4CFB0095B5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E33D0746285B4CFB0095B5BE /* BreakPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPreviewApp.swift; sourceTree = "<group>"; };
 		E33D0748285B4CFB0095B5BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E33D074A285B4CFD0095B5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,13 @@
 		E33D0763285B4CFE0095B5BE /* BreakPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33D0767285B4CFE0095B5BE /* BreakPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPreviewUITests.swift; sourceTree = "<group>"; };
 		E33D0769285B4CFE0095B5BE /* BreakPreviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPreviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E33D0776285B4E5A0095B5BE /* PersonInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInjector.swift; sourceTree = "<group>"; };
+		E33D0778285B4F4C0095B5BE /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E33D0779285B4F4C0095B5BE /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E33D077C285B50C10095B5BE /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		E33D077E285B51650095B5BE /* BreakPreview 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BreakPreview 2.xcdatamodel"; sourceTree = "<group>"; };
+		E33D077F285B52620095B5BE /* BreakPreview 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BreakPreview 3.xcdatamodel"; sourceTree = "<group>"; };
+		E33D0780285B52E60095B5BE /* BreakPreview 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BreakPreview 4.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,8 @@
 		E33D0738285B4CFB0095B5BE = {
 			isa = PBXGroup;
 			children = (
+				E33D0778285B4F4C0095B5BE /* Person+CoreDataClass.swift */,
+				E33D0779285B4F4C0095B5BE /* Person+CoreDataProperties.swift */,
 				E33D0743285B4CFB0095B5BE /* BreakPreview */,
 				E33D075C285B4CFE0095B5BE /* BreakPreviewTests */,
 				E33D0766285B4CFE0095B5BE /* BreakPreviewUITests */,
@@ -101,7 +112,6 @@
 		E33D0743285B4CFB0095B5BE /* BreakPreview */ = {
 			isa = PBXGroup;
 			children = (
-				E33D0744285B4CFB0095B5BE /* ViewController.swift */,
 				E33D0746285B4CFB0095B5BE /* BreakPreviewApp.swift */,
 				E33D0748285B4CFB0095B5BE /* ContentView.swift */,
 				E33D074A285B4CFD0095B5BE /* Assets.xcassets */,
@@ -109,6 +119,7 @@
 				E33D0754285B4CFE0095B5BE /* Info.plist */,
 				E33D0751285B4CFD0095B5BE /* BreakPreview.xcdatamodeld */,
 				E33D074C285B4CFD0095B5BE /* Preview Content */,
+				E33D077C285B50C10095B5BE /* PersonView.swift */,
 			);
 			path = BreakPreview;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				E33D074D285B4CFD0095B5BE /* Preview Assets.xcassets */,
+				E33D0776285B4E5A0095B5BE /* PersonInjector.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -268,10 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33D077B285B4F4C0095B5BE /* Person+CoreDataProperties.swift in Sources */,
 				E33D0753285B4CFE0095B5BE /* BreakPreview.xcdatamodeld in Sources */,
 				E33D0747285B4CFB0095B5BE /* BreakPreviewApp.swift in Sources */,
+				E33D077A285B4F4C0095B5BE /* Person+CoreDataClass.swift in Sources */,
 				E33D0750285B4CFD0095B5BE /* Persistence.swift in Sources */,
-				E33D0745285B4CFB0095B5BE /* ViewController.swift in Sources */,
+				E33D077D285B50C10095B5BE /* PersonView.swift in Sources */,
+				E33D0777285B4E5A0095B5BE /* PersonInjector.swift in Sources */,
 				E33D0749285B4CFB0095B5BE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,9 +617,12 @@
 		E33D0751285B4CFD0095B5BE /* BreakPreview.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				E33D0780285B52E60095B5BE /* BreakPreview 4.xcdatamodel */,
+				E33D077F285B52620095B5BE /* BreakPreview 3.xcdatamodel */,
+				E33D077E285B51650095B5BE /* BreakPreview 2.xcdatamodel */,
 				E33D0752285B4CFD0095B5BE /* BreakPreview.xcdatamodel */,
 			);
-			currentVersion = E33D0752285B4CFD0095B5BE /* BreakPreview.xcdatamodel */;
+			currentVersion = E33D0780285B52E60095B5BE /* BreakPreview 4.xcdatamodel */;
 			path = BreakPreview.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
